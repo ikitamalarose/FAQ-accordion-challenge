@@ -119,9 +119,9 @@ header {
 
 /* FAQ Content Start */
 
- /* .faq__content {
+ .faq__content {
         display: none;
-    } */
+    }
 
 .faq__text {
     margin-bottom: 1.5rem;
