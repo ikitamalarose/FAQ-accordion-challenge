@@ -1,0 +1,8 @@
+@media (max-witdh:768px) {
+
+    /* body start */
+    body{
+        font-size: var(--font-size-body-s);
+    }
+    
+}
