@@ -119,9 +119,13 @@ header {
 
 /* FAQ Content Start */
 
- .faq__content {
-        display: none;
-    }
+.faq__content {
+    display: none;
+}
+
+.faq__content--active{
+    display: block;
+}
 
 .faq__text {
     margin-bottom: 1.5rem;
