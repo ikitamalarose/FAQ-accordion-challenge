@@ -1,6 +1,153 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: var(--font-family-work-sans);
 }
+
+
+body {
+    background-image: url(../../assets/images/background-pattern-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: var(--light-pink);
+
+    font-size: var(--font-size-body-m);
+
+    display: grid;
+    place-content: center;
+
+    padding-top: 10.469rem;
+}
+
+#container {
+    width: 37.5rem;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--white);
+    border-radius: 1rem;
+
+    padding: 2.5rem;
+}
+
+/* Header Start*/
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 4.125rem;
+    margin-bottom: 2rem;
+}
+
+.header-icon-container {
+    width: 2.5rem;
+    height: 2.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 0.813rem;
+}
+
+.header-icon-container img {
+    width: 2.187rem;
+    height: 2.187rem;
+}
+
+.header-title {
+    font-size: var(--font-size-heading-l);
+    font-weight: var(--font-weight-bold);
+}
+
+/* Header End */
+
+/* Main Start */
+
+/* FAQ header Start */
+.faq__item:not(:last-of-type) {
+    border-bottom: 0.125rem solid var(--light-pink);
+    margin-bottom: 1.25rem;
+}
+
+.faq__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+    margin-bottom: 1.5rem;
+}
+
+.faq__title {
+    font-size: var(--font-size-heading-s);
+}
+
+.faq__title:hover {
+    cursor: pointer;
+    color: var(--pink);
+}
+
+.faq__toggle-button {
+    width: 1.875rem;
+    height: 1.875rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    background: none;
+}
+
+.faq__toggle-button:hover {
+    cursor: pointer;
+}
+
+.faq__icon {
+    width: 1.524rem;
+    height: 1.524rem;
+}
+
+/* FAQ header End */
+
+/* FAQ Content Start */
+
+ /* .faq__content {
+        display: none;
+    } */
+
+.faq__text {
+    margin-bottom: 1.5rem;
+
+    color: var(--grayish-purple);
+}
+
+/* FAQ Content End */
+
+/* Main End */
+
+/* Footer Start */
+
+.footer-attribution {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-attribution__text:first-of-type {
+    display: none;
+}
+
+.footer-attribution__link {
+    color: var(--pink);
+}
+
+/* Footer End */

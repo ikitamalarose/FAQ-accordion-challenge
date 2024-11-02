@@ -1,0 +1,72 @@
+@media (max-width:768px) {
+
+    /* body Start */
+    body {
+        background-image: url(../../assets/images/background-pattern-mobile.svg);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        font-size: var(--font-size-body-s);
+        padding-top: 8.875rem;
+    }
+
+    #container {
+        width: 20.438rem;
+
+        display: flex;
+        flex-direction: column;
+
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+    }
+
+    /* Header Start */
+    header {
+        height: 2.375rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .header-icon-container {
+        width: 1.5rem;
+        height: 1.5rem;
+
+        margin-right: 1.5rem;
+    }
+
+    .header-icon-container img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .header-title {
+        font-size: var(--font-size-heading-m);
+    }
+
+    /* Header End */
+
+
+    /* Main Start */
+
+    /* FAQ header Start */
+
+    .faq__title {
+        font-size: var(--font-size-body-m);
+    }
+
+    /* FAQ Header End */
+
+
+    /* FAQ Content Start */
+
+    .faq__text {
+        line-height: 150%;
+
+        margin-bottom: 1.25rem;
+    }
+
+    /* Main End */
+
+}
