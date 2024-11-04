@@ -13,8 +13,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
   - [Author](#author)
 
 ## Overview
@@ -30,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-preview.jpg)
+![](./design/desktop-preview.png)
 
 ### Links
 
@@ -49,21 +47,13 @@ Users should be able to:
 
 ### What I learned
 
-```html
+In this project, I focused on improving accessibility, which included learning how to conduct Screen Reader Tests and Keyboard Accessibility Tests.
 
-```
-```css
-```
-```js
-}
-```
+- Screen Reader Tests: I learned how to use screen readers to navigate and validate that all important content is accessible and correctly interpreted. This involved checking for appropriate use of ARIA labels, landmarks, and other semantic HTML elements that ensure a seamless experience for users who rely on screen readers.
 
-### Continued development
+- Keyboard Accessibility Tests: I also practiced verifying that all interactive elements can be accessed and used through keyboard-only navigation. This involved ensuring focus indicators were clear, logical tab order was maintained, and all buttons, links, and form controls responded correctly to keyboard input, making the application more inclusive.
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+This experience has enhanced my understanding of accessibility best practices and helped me create a more user-friendly, inclusive application.
 
 ## Author
 
